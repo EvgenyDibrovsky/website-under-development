@@ -5,11 +5,16 @@ body {
 section {
   position: relative;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
   max-width: 1920px;
-  padding: 100px 15px;
+  padding: 150px 100px;
+  background-color: #27649487;
+  border-radius: 10px;
 }
 
 h1 {
@@ -17,6 +22,7 @@ h1 {
   font-size: 2.8rem;
   color: rgb(255, 255, 255);
   margin-bottom: 8vh;
+  margin-top: 0px;
 }
 
 section::before {
